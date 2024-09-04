@@ -9,7 +9,7 @@ header {
 }
 
 main {
-  display: block;
+  padding: 30px 0;
 }
 
 .searchFormInput {
@@ -31,6 +31,15 @@ main {
   color: white;
 }
 
+.weatherApp {
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+}
+
 .weatherAppData {
   display: flex;
   justify-content: space-between;
@@ -47,4 +56,8 @@ main {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.weatherAppDetails strong {
+  color: #f65282;
 }
