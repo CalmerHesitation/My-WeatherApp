@@ -10,6 +10,7 @@ header {
 
 main {
   padding: 30px 0;
+  display: block;
 }
 
 .searchFormInput {
@@ -56,8 +57,30 @@ main {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  display: block;
 }
 
 .weatherAppDetails strong {
   color: #f65282;
+}
+
+.weatherAppContainer {
+  display: flex;
+}
+
+.weatherAppIcon {
+  height: 88px;
+  width: 88px;
+}
+
+.weatherAppTemp {
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 88px;
+  display: block;
+}
+
+.weatherAppUnit {
+  font-size: 28px;
+  margin-top: 6px;
 }
