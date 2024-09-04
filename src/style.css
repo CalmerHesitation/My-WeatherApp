@@ -30,3 +30,21 @@ main {
   border-radius: 6px;
   color: white;
 }
+
+.weatherAppData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weatherAppCity {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.weatherAppDetails {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
